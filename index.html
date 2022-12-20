@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="style.css">
+<head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Controle de Produtos</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header>
+        <img src="./logodnc.png" width="100">
+        <h1>Controle de produtos</h1>
+        
+    </header>
+    <main>
+        <h2>Produtos</h2>
+        <span>lista de produtos</span>
+        <div class="card">
+            <div class="inputPd">
+            <div class="inputPd">
+                </label>Produto</label>
+                <input type="text" id="pdnome" placeholder=" Nome do produto ">
+            </div class="inputPd">
+                </label>Preço</label>
+                <input type="text" id="pdpreco" placeholder="R$ 00.00">
+            </div>
+            
+            
+            <button onclick="produto.Adicionar()"> Adicionar </button>
+            <button onclick="produto.Cancelar()"> Cancelar </button>
+            
+        </div>
+        <div class="conteudo">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th>Remover</th>
+                    
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+
+
+       
+       
+    </main>
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
