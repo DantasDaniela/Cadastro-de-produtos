@@ -21,7 +21,7 @@ class Produto{
 
         produto.id = this.id;
         produto.nomeProduto = document.getElementById('pdnome').value
-        produto.nomeProduto = document.getElementById('pdpreco').value
+        produto.precoProduto = document.getElementById('pdpreco').value
 
         return produto
     }
@@ -58,8 +58,8 @@ class Produto{
             let tr = tbody.insertRow();
 
             let td_id = tr.insertCell();
-            let td_preco = tr.insertCell();
             let td_nome = tr.insertCell();
+            let td_preco = tr.insertCell();
             let td_del = tr.insertCell();
 
             td_id.innerText = this.arrayProdutos[i].id;
